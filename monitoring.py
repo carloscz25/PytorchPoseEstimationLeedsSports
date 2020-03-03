@@ -72,7 +72,7 @@ def plot_grad_flow2(named_parameters):
 #             _mean[name] = gradmean[i]
 #         writer.add_scalars(netname + "/abs_mean", _mean, global_step=global_step)
 
-def register_gradient_velocities(model, velocities, step=0, record_step):
+def register_gradient_velocities(model, velocities, step=0):
     pams = model.parameters()
     if step==0:
         for n,p in model.named_parameters():
