@@ -8,8 +8,11 @@ from torch.utils.tensorboard import SummaryWriter
 
 
 
-imagepath = '/home/carlos/PycharmProjects/PublicDatasets/LeedsSportPoseDatasetExtended/images'
-labelsfilepath = '/home/carlos/PycharmProjects/PublicDatasets/LeedsSportPoseDatasetExtended/joints.mat'
+# imagepath = '/home/carlos/PycharmProjects/PublicDatasets/LeedsSportPoseDatasetExtended/images'
+# labelsfilepath = '/home/carlos/PycharmProjects/PublicDatasets/LeedsSportPoseDatasetExtended/joints.mat'
+
+imagepath = '/mnt/disks/sdb/datasets/leeds/images'
+labelsfilepath = '/mnt/disks/sdb/datasets/leeds/joints.mat'
 
 batchsize = 64
 numworkers = 2
