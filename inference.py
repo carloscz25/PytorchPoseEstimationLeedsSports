@@ -12,8 +12,8 @@ labelsfilepath = '/home/carlos/PycharmProjects/PublicDatasets/LeedsSportPoseData
 # imagepath = '/home/carlos/PycharmProjects/PublicDatasets/LeedsSportPoseDataset/images'
 # labelsfilepath = '/home/carlos/PycharmProjects/PublicDatasets/LeedsSportPoseDataset/joints.mat'
 
-imagepath = '/mnt/disks/sdb/datasets/leeds/images'
-labelsfilepath = '/mnt/disks/sdb/datasets/leeds/joints.mat'
+# imagepath = '/mnt/disks/sdb/datasets/leeds/images'
+# labelsfilepath = '/mnt/disks/sdb/datasets/leeds/joints.mat'
 
 
 batchsize = 1
@@ -89,9 +89,9 @@ for i in range(10):
 
 
     orimnp = cv2.resize(orimnp, None, fx=4, fy=4)
-    cv2.imshow('frame'+str(i), orimnp)
+    cv2.imwrite('frame'+str(i)+'.jpg', orimnp)
     y = 2
-cv2.waitKey(0)
+
 
 
 
