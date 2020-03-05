@@ -6,14 +6,14 @@ import os
 import numpy as np
 import cv2
 
-imagepath = '/home/carlos/PycharmProjects/PublicDatasets/LeedsSportPoseDatasetExtended/images'
-labelsfilepath = '/home/carlos/PycharmProjects/PublicDatasets/LeedsSportPoseDatasetExtended/joints.mat'
+# imagepath = '/home/carlos/PycharmProjects/PublicDatasets/LeedsSportPoseDatasetExtended/images'
+# labelsfilepath = '/home/carlos/PycharmProjects/PublicDatasets/LeedsSportPoseDatasetExtended/joints.mat'
 
 # imagepath = '/home/carlos/PycharmProjects/PublicDatasets/LeedsSportPoseDataset/images'
 # labelsfilepath = '/home/carlos/PycharmProjects/PublicDatasets/LeedsSportPoseDataset/joints.mat'
 
-# imagepath = '/mnt/disks/sdb/datasets/leeds/images'
-# labelsfilepath = '/mnt/disks/sdb/datasets/leeds/joints.mat'
+imagepath = '/mnt/disks/sdb/datasets/leeds/images'
+labelsfilepath = '/mnt/disks/sdb/datasets/leeds/joints.mat'
 
 
 batchsize = 1
